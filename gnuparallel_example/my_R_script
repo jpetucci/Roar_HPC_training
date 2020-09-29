@@ -1,0 +1,10 @@
+library("benchmarkme")
+
+#Print Hello
+args = commandArgs(trailingOnly=TRUE)
+print(paste("Hello from task number:",args[1]), quote = FALSE)
+
+#Run benchmarkme to simulate CPU intensive task
+print("Simulating High CPU load...", quote = FALSE)
+res = benchmark_std(runs = 3)
+print("Done!", quote = FALSE)

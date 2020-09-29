@@ -1,0 +1,1 @@
+int readInVar(void);

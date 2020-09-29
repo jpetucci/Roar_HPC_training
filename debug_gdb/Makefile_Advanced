@@ -1,0 +1,23 @@
+# Sample Advanced Makefile
+#
+# Adam Lavely
+# Spring 2018
+
+CC=gcc
+CFLAGS=-c -g 
+
+
+SOURCES=factorial.c readInVar.c facCalc.c
+OBJECTS=$(SOURCES:.cpp=.o)
+EXECUTABLE=factorial
+
+all: $(SOURCES) $(EXECUTABLE)
+    
+$(EXECUTABLE): $(OBJECTS) 
+	$(CC) $(OBJECTS) -o $@
+
+.c.o:
+	$(CC) $(CFLAGS) $< -o $@
+
+clean:
+	rm *o factorial

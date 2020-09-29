@@ -1,0 +1,22 @@
+# Sample Basic Makefile
+#
+# Adam Lavely
+# Spring 2018
+
+all: factorial
+
+factorial: factorial.o readInVar.o facCalc.o
+	gcc factorial.o readInVar.o facCalc.o -o factorial
+
+factorial.o: factorial.c
+	gcc -c factorial.c
+
+readInVar.o: readInVar.c
+	gcc -c readInVar.c
+
+facCalc.o: facCalc.c
+	gcc -c facCalc.c
+
+clean:
+	rm *o factorial
+

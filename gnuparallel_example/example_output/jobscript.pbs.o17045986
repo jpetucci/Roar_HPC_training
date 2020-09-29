@@ -1,0 +1,726 @@
+ 
+Job started on comp-bc-0293.acib.production.int.aci.ics.psu.edu at Thu Mar  5 09:17:32 EST 2020
+ 
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.736 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.02 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.339 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.97 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.08 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.874 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.737 (sec).
+	Sorting of 7,000,000 random values: 0.959 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.646 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.133 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.48 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.478 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.466 (sec).
+	FFT over 2,500,000 random values: 0.288 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.458 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.754 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.03 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.346 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.94 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.13 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.879 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.743 (sec).
+	Sorting of 7,000,000 random values: 0.962 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.65 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0673 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.497 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.476 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.372 (sec).
+	FFT over 2,500,000 random values: 0.364 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.459 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.765 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 0.999 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.341 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.94 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.08 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.863 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.744 (sec).
+	Sorting of 7,000,000 random values: 0.949 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.651 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0677 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.5 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.483 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.372 (sec).
+	FFT over 2,500,000 random values: 0.449 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.48 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.763 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.16 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.352 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.98 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.1 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.919 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.74 (sec).
+	Sorting of 7,000,000 random values: 0.954 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.656 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.067 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.51 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.481 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.374 (sec).
+	FFT over 2,500,000 random values: 0.406 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.464 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.748 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.04 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.336 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.95 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.08 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.846 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.731 (sec).
+	Sorting of 7,000,000 random values: 0.946 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.649 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0677 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.481 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.472 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.374 (sec).
+	FFT over 2,500,000 random values: 0.296 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.46 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.76 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.08 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.355 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.97 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.11 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.922 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.737 (sec).
+	Sorting of 7,000,000 random values: 0.941 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.642 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0677 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.496 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.473 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.378 (sec).
+	FFT over 2,500,000 random values: 0.354 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.501 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.763 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.07 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.349 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.94 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.08 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.918 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.738 (sec).
+	Sorting of 7,000,000 random values: 0.952 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.655 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0693 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.514 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.481 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.371 (sec).
+	FFT over 2,500,000 random values: 0.331 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.46 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.749 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.03 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.336 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.97 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.813 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.729 (sec).
+	Sorting of 7,000,000 random values: 0.954 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.655 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0697 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.495 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.474 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.378 (sec).
+	FFT over 2,500,000 random values: 0.382 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.482 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.745 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 0.972 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.338 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.92 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.08 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.791 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.726 (sec).
+	Sorting of 7,000,000 random values: 0.945 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.647 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0673 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.477 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.471 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.37 (sec).
+	FFT over 2,500,000 random values: 0.278 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.448 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.745 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 0.997 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.332 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.93 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.797 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.73 (sec).
+	Sorting of 7,000,000 random values: 0.945 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.647 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0673 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.483 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.473 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.365 (sec).
+	FFT over 2,500,000 random values: 0.286 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.459 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.73 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 0.959 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.243 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.93 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.12 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.803 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.734 (sec).
+	Sorting of 7,000,000 random values: 0.947 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.641 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.16 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.48 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.478 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.494 (sec).
+	FFT over 2,500,000 random values: 0.427 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.465 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.732 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 0.95 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.241 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.93 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.1 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.799 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.741 (sec).
+	Sorting of 7,000,000 random values: 0.948 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.641 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0673 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.482 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.469 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.37 (sec).
+	FFT over 2,500,000 random values: 0.343 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.455 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.738 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.11 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.253 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.99 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.844 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.733 (sec).
+	Sorting of 7,000,000 random values: 0.944 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.649 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0673 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.493 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.473 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.368 (sec).
+	FFT over 2,500,000 random values: 0.305 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.478 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.743 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.13 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.254 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 2.02 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.1 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.866 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.73 (sec).
+	Sorting of 7,000,000 random values: 0.944 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.647 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.067 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.501 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.475 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.373 (sec).
+	FFT over 2,500,000 random values: 0.296 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.458 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.737 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 0.97 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.243 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.95 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.798 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.73 (sec).
+	Sorting of 7,000,000 random values: 0.943 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.648 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0677 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.482 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.477 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.369 (sec).
+	FFT over 2,500,000 random values: 0.287 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.444 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.734 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.03 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.258 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.97 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.12 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.86 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.727 (sec).
+	Sorting of 7,000,000 random values: 0.941 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.647 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0673 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.501 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.474 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.369 (sec).
+	FFT over 2,500,000 random values: 0.287 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.457 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.734 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.18 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.257 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 2.01 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.821 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.728 (sec).
+	Sorting of 7,000,000 random values: 0.941 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.65 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0693 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.484 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.474 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.384 (sec).
+	FFT over 2,500,000 random values: 0.284 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.462 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.737 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 0.975 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.244 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.93 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.81 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.735 (sec).
+	Sorting of 7,000,000 random values: 0.947 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.649 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.07 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.482 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.485 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.382 (sec).
+	FFT over 2,500,000 random values: 0.405 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.476 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.748 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.17 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.258 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 2.03 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.11 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.853 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.726 (sec).
+	Sorting of 7,000,000 random values: 0.946 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.648 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0673 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.511 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.473 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.362 (sec).
+	FFT over 2,500,000 random values: 0.291 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.464 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.733 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 0.982 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.239 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.92 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.08 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.791 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.726 (sec).
+	Sorting of 7,000,000 random values: 0.949 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.654 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0697 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.501 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.475 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.362 (sec).
+	FFT over 2,500,000 random values: 0.286 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.459 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.735 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 0.994 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.241 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.93 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.823 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.727 (sec).
+	Sorting of 7,000,000 random values: 0.951 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.664 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0683 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.504 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.488 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.367 (sec).
+	FFT over 2,500,000 random values: 0.418 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.478 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.735 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.02 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.239 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.95 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.803 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.729 (sec).
+	Sorting of 7,000,000 random values: 0.944 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.647 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0673 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.479 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.473 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.362 (sec).
+	FFT over 2,500,000 random values: 0.296 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.461 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.761 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.04 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.24 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.97 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.11 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.889 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.737 (sec).
+	Sorting of 7,000,000 random values: 0.947 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.663 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0683 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.518 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.487 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.376 (sec).
+	FFT over 2,500,000 random values: 0.403 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.473 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.749 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.11 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.258 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.95 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.08 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.815 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.733 (sec).
+	Sorting of 7,000,000 random values: 0.955 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.665 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0677 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.508 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.487 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.377 (sec).
+	FFT over 2,500,000 random values: 0.404 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.476 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.749 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.12 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.256 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 2 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.1 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.855 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.726 (sec).
+	Sorting of 7,000,000 random values: 0.949 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.647 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.067 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.498 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.473 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.362 (sec).
+	FFT over 2,500,000 random values: 0.278 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.458 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.742 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.08 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.262 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.97 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.08 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.82 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.736 (sec).
+	Sorting of 7,000,000 random values: 0.954 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.667 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0683 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.508 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.488 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.373 (sec).
+	FFT over 2,500,000 random values: 0.378 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.481 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.75 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.15 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.256 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 2.02 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.1 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.862 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.73 (sec).
+	Sorting of 7,000,000 random values: 0.948 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.648 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0677 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.51 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.474 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.378 (sec).
+	FFT over 2,500,000 random values: 0.372 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.473 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.734 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 0.977 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.24 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.93 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.791 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.731 (sec).
+	Sorting of 7,000,000 random values: 0.944 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.647 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0673 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.485 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.473 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.369 (sec).
+	FFT over 2,500,000 random values: 0.268 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.431 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.734 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.03 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.24 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.96 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.08 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.798 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.738 (sec).
+	Sorting of 7,000,000 random values: 0.952 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.65 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0683 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.482 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.471 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.36 (sec).
+	FFT over 2,500,000 random values: 0.261 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.413 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.768 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.22 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.276 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 2.04 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.11 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.886 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.737 (sec).
+	Sorting of 7,000,000 random values: 0.959 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.668 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0687 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.529 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.483 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.363 (sec).
+	FFT over 2,500,000 random values: 0.311 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.443 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.734 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.04 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.242 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.96 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.803 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.729 (sec).
+	Sorting of 7,000,000 random values: 0.941 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.65 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0677 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.481 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.475 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.378 (sec).
+	FFT over 2,500,000 random values: 0.289 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.467 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.729 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 0.971 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.239 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.92 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.795 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.731 (sec).
+	Sorting of 7,000,000 random values: 0.941 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.645 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0673 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.476 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.473 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.364 (sec).
+	FFT over 2,500,000 random values: 0.284 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.464 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.738 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 0.983 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.239 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.93 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.803 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.726 (sec).
+	Sorting of 7,000,000 random values: 0.946 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.648 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0667 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.482 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.475 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.376 (sec).
+	FFT over 2,500,000 random values: 0.286 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.473 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.734 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.03 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.241 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.96 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.803 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.735 (sec).
+	Sorting of 7,000,000 random values: 0.948 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.649 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0673 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.483 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.474 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.37 (sec).
+	FFT over 2,500,000 random values: 0.28 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.454 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.752 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.14 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.253 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 2.04 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.11 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.855 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.732 (sec).
+	Sorting of 7,000,000 random values: 0.948 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.648 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0677 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.496 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.472 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.369 (sec).
+	FFT over 2,500,000 random values: 0.278 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.459 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.735 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.04 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.241 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.97 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.797 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.732 (sec).
+	Sorting of 7,000,000 random values: 0.946 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.65 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.068 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.484 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.473 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.366 (sec).
+	FFT over 2,500,000 random values: 0.274 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.442 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.733 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 0.959 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.24 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 2.08 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.792 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.731 (sec).
+	Sorting of 7,000,000 random values: 0.944 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.647 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0673 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.483 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.471 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.367 (sec).
+	FFT over 2,500,000 random values: 0.325 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.443 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.732 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.11 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.259 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 2 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.11 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.862 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.733 (sec).
+	Sorting of 7,000,000 random values: 0.943 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.649 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0673 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.501 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.473 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.374 (sec).
+	FFT over 2,500,000 random values: 0.296 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.454 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.742 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 0.989 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.242 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.92 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.09 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.799 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.74 (sec).
+	Sorting of 7,000,000 random values: 0.949 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.649 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.068 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.481 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.473 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.37 (sec).
+	FFT over 2,500,000 random values: 0.265 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.43 (sec).
+# Programming benchmarks (5 tests):
+	3,500,000 Fibonacci numbers calculation (vector calc): 0.736 (sec).
+	Grand common divisors of 1,000,000 pairs (recursion): 1.02 (sec).
+	Creation of a 3,500 x 3,500 Hilbert matrix (matrix calc): 0.242 (sec).
+	Creation of a 3,000 x 3,000 Toeplitz matrix (loops): 1.97 (sec).
+	Escoufier's method on a 60 x 60 matrix (mixed): 1.08 (sec).
+# Matrix calculation benchmarks (5 tests):
+	Creation, transp., deformation of a 5,000 x 5,000 matrix: 0.797 (sec).
+	2,500 x 2,500 normal distributed random matrix^1,000: 0.739 (sec).
+	Sorting of 7,000,000 random values: 0.948 (sec).
+	2,500 x 2,500 cross-product matrix (b = a' * a): 0.65 (sec).
+	Linear regr. over a 5,000 x 500 matrix (c = a \ b'): 0.0683 (sec).
+# Matrix function benchmarks (5 tests):
+	Cholesky decomposition of a 3,000 x 3,000 matrix: 0.483 (sec).
+	Determinant of a 2,500 x 2,500 random matrix: 0.474 (sec).
+	Eigenvalues of a 640 x 640 random matrix: 0.371 (sec).
+	FFT over 2,500,000 random values: 0.257 (sec).
+	Inverse of a 1,600 x 1,600 random matrix: 0.439 (sec).
+ 
+Job Ended at Thu Mar  5 09:22:09 EST 2020
+ 
