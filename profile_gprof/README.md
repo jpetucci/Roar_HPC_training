@@ -3,6 +3,7 @@
 This repo contains an example for using gprof to profile naive dgemm (double precision general matrix multiplication) O(n^3).
 
 Usage:
+```bash
 #Set up environment and compile the code
 $ module purge
 $ module load intel mkl
@@ -11,5 +12,6 @@ $ make
 $ ./benchmark-naive-gprof
 #Use gprof to find hotspots
 $ gprof ./benchmark-naive-gprof gmon.out
-# Run highly optimized dgemm from MKL
+#Run highly optimized dgemm from MKL
 $ ./benchmark-blas 
+```
