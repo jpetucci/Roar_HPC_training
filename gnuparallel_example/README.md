@@ -4,12 +4,14 @@ This repo contains an example for using GNU parallel (gnu.org/software/parallel/
 
 Requirements:
 A conda environment that contains R with the benchmarkme library and the latest version of gnu parallel.
-To create this on Roar follow the steps below:  
+To create this on Roar follow the steps below:
+```bash
 $ module purge && module load python/3.6.3-anaconda5.0.1  
 $ conda create -n myenv -y  
 $ source activate myenv  
 $ conda install -c conda-forge r-benchmarkme  
-$ conda install -c conda-forge parallel  
+$ conda install -c conda-forge parallel 
+```
 
 Alternative:
 You can use the version of R and gnu parallel on the software stack. To use this option, place the following commands in the jobscript.pbs file.
