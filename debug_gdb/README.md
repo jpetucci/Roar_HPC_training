@@ -1,6 +1,6 @@
 # GBD Example
 
-Users will use git to get these example files, we will go through the various Make files and then use GDB to find the problem with the included code, which calculates factorial of an input.  The code is far more complicated than it needs to be (three c files) but this is to help show how make and gdb can be used on more complicated examples. 
+Users will use git to get these example files, we will go through the various Make files and then use GDB to find the problem with the included code, which calculates factorial of an input.  The code is far more complicated than it needs to be (three .c files) but this is to help show how make and gdb can be used on more complicated examples. 
 
 Clone repo to scratch directory:
 ```bash
@@ -24,7 +24,8 @@ $ ls -a
 
 Compile and factorial example:
 ```bash
-$ module load gcc/5.3.1
+$ cd debug_gdb
+$ module load gcc/8.3.1
 # This uses Makefile
 $ make 
 $ ./factorial
