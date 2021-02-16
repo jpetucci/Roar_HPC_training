@@ -4,8 +4,10 @@ This repo contains an example for using MPI on the Roar systems to complete a li
 
 Usage:
 ```bash
+$ cd mpi_example
 $ module purge
 $ module load intel impi
-$ mpicc -o mpi_hello_world.out mpi_hello_world.c
+$ export UCX_TLS=all
+$ mpiicc -o mpi_hello_world.out mpi_hello_world.c
 $ mpirun -np 4 ./mpi_hello_world.out
 ```
