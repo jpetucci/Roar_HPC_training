@@ -4,7 +4,6 @@ Users will use git to get these example files, we will go through the various Ma
 
 Clone repo to scratch directory:
 ```bash
-$ module load git
 $ cd ~/scratch
 $ git clone https://github.com/jpetucci/Roar_HPC_training.git
 ```
