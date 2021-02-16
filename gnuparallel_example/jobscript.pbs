@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#PBS -l nodes=2:ppn=10
-#PBS -l walltime=20:00
+#PBS -l nodes=2:ppn=5:rhel7
+#PBS -l walltime=10:00
 #PBS -l pmem=4gb
 #PBS -A open
 #PBS -j oe
@@ -10,19 +10,17 @@ echo "Job started on `hostname` at `date`"
 echo " "
 
 # Environment setup
-# You will need to edit this section to point to your
-# conda environment, which has gnu parallel and R installed 
 module purge
-module load python/3.6.3-anaconda5.0.1
-module load gcc/5.3.1
-source activate /gpfs/scratch/jmp579/r_conda
+module use /gpfs/group/RISE/sw7/modules
+module load r/4.0.3
+module --expert load gcc/8.3.1 parallel
 source `which env_parallel.bash`
 
 # Go to the directory where qsub was run
 cd $PBS_O_WORKDIR
 
 # Run the job
-env_parallel --jobs 10 --sshloginfile $PBS_NODEFILE --workdir $PWD --joblog gnuparallel.log --sshdelay 2 < task_list.txt > job_parallel_output
+env_parallel --jobs 5 --sshloginfile $PBS_NODEFILE --workdir $PWD --joblog gnuparallel.log --sshdelay 2 < task_list.txt > job_parallel_output
 
 # Finish up
 echo " "
