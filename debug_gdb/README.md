@@ -33,8 +33,8 @@ $ ./factorial
 Run gdb debugger
 ```bash
 $ gdb factorial
-# Set a breakpoint on line 10 of a source file
-(gdb) break facCalc.c:10
+# Set a breakpoint on line 16 of a source file
+(gdb) break facCalc.c:16
 # Run program
 (gdb) run
 # Step line by line
