@@ -5,6 +5,7 @@ This repo contains an example for using gprof to profile naive dgemm (double pre
 Usage:
 ```bash
 #Set up environment and compile the code
+$ cd profile_gprof
 $ module purge
 $ module load intel mkl
 $ make
