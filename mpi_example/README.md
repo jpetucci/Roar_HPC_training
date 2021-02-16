@@ -1,6 +1,6 @@
 # MPI Example
 
-This repo contains an example for using MPI on the Roar systems to complete a list of tasks in a file.
+This repo contains an example for using MPI on the Roar systems to print hello from multiple processes/ranks.
 
 Usage:
 ```bash
