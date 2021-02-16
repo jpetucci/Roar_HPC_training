@@ -1,6 +1,6 @@
 # OpenMP Example
 
-This repo contains an example for using OpenMP on the Roar systems to complete a list of tasks in a file.
+This repo contains an example for using OpenMP on the Roar systems to print hello from multiple threads.
 
 Usage:
 ```bash
