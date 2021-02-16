@@ -8,13 +8,3 @@ Rscript my_R_script 7
 Rscript my_R_script 8
 Rscript my_R_script 9
 Rscript my_R_script 10
-Rscript my_R_script 11
-Rscript my_R_script 12
-Rscript my_R_script 13
-Rscript my_R_script 14
-Rscript my_R_script 15
-Rscript my_R_script 16
-Rscript my_R_script 17
-Rscript my_R_script 18
-Rscript my_R_script 19
-Rscript my_R_script 20
